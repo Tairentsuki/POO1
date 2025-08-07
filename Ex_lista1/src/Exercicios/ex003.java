@@ -15,6 +15,6 @@ public class ex003 {
 		
 		System.out.println(n1 + " + " + n2 + " = " + soma);
 		
-		entrada.close();
+		entrada.close(); 
 	}
 }
