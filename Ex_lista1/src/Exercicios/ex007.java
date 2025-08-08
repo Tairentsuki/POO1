@@ -1,20 +1,18 @@
 package Exercicios;
-
 import java.util.Scanner;
 
 public class ex007 {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-
-		System.out.print("Digite quanto você ganha por hora: ");
-		Double valor_hora = entrada.nextDouble();
-
-		System.out.print("Digite quantas horas foram trabalhadas no mês: ");
-		Double horas_mensais = entrada.nextDouble();
-
-		Double salario = valor_hora * horas_mensais;
-
-		System.out.printf("Salário: %.2f", salario);
+		
+		System.out.print("Escreva a largura de um dos lados do quadrado em cm: ");
+		int largura = entrada.nextInt();
+		int area = largura*largura;
+		
+		System.out.printf
+		("A Area do quadrado de largura %d cm é de %d cm", largura, area);
 		entrada.close();
 	}
+	
 }
+
